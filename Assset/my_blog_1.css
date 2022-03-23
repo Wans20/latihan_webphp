@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(95, 95, 95);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+video {
+    position:relative; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;   
+    background-size: cover;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+h1{
+    background-color:black;
+    padding-left: 20px;
+    text-align-last: center;
+}
+nav{
+    text-decoration: cornsilk;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
