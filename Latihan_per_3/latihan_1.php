@@ -91,6 +91,7 @@ foreach($toko_ase as $tka){
             <th>Konten</th>
             <th>Action</th>
         </tr>
+        
     </table>
 </body>
 </html>
