@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LATIHAN-4</title>
+    <title>LATIHAN_per_ke_04</title>
 </head>
 <body>
 <?php 
-    //$word = "saya sedang belajar web";
-    //$word = explode("", $word);
-    //var_dump($word);
+    $word = "saya sedang belajar php";
+    $word = explode(" ", $word);
+    var_dump($word);
     //array(4)
-    //{[0]=> string(4)"saya"[1]=> string(6)"sedang"
-    // [2]=> string(7)"belajar" [3]=>string(3)"php"}
-    //echo $word  
-?>
-<!-- latihan Format Date -->
-<?php
+    //{ [0]=> string(4)"saya" [1]=>string(6)"sedang"
+    //  [2]=> string(7)"belajar" [3]=>string(3)"php"}
+    //echo $word[3];
+echo "<hr>";
+$im_words = implode("_",$word);
+echo $im_words;//saya sedang belajar php
+echo "<hr>";
+$kata = "Ayo belajar web,mudah kok !!!";
+echo ltrim($kata,"Ayo");//belajar web, mudah kok
+echo "<hr>";
+$kata1 = "PHP mudah sekali";
+echo rtrim($kata1,"sekali");//PHP mudah
+echo "<hr>";
+$kata2 = "Coding is fun";
+echo strlen($kata2);
+echo "<hr>";
+//<!-- latihan Format Date -->
 echo date("l/d/F/Y");
 echo "<hr>";
 echo "Hari Ini".date(" d/m/y")." Atau ".date( "Y/m/d");

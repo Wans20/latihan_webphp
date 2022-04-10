@@ -93,7 +93,7 @@
               <p class="card-text">1. Untuk merealisasikan diri menjadi semakin sempurna dan utuh. Dengan kata lain kehidupan bagi manusia merupakan kesempatan baginya untuk semakin merealisasikan dirinya. 
                 Kesimpulan ini berangkat dari penyelidikan atas fakta bahwa manusia tidak pernah merasa hidupnya sudah sempurna. Sebaliknya ia mengalami dirinya selalu ditarik ke atas ke arah kesempurnaan, 
                 kebijaksanaan, keutamaan, kebaikan terus-menerus. Dengan kata lain manusia tidak pernah menerima dirinya sebagai sudah sempurna, sudah utuh sampai kehidupan itu sendiri dialaminya bertemu........
-                <a href="my_blog_1.html" target="_blank"> >>>Baca Selengkapnya>>> </a></p>
+                <a href="my_blog_1.php" target="_blank"> >>>Baca Selengkapnya>>> </a></p>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@
                 Menjadi seorang mahasiswa sangatlah berbeda ketika menjadi seorang siswa. Dunia kampus sangatlah berbeda dengan dunia sekolah.
                 Ada 2 hal yang harus ditanamkan ke dalam diri mahasiswa yaitu kemandirian dan integritas. Dengan adanya kemandirian, mahasiswa dituntut 
                 untuk dapat mengatur dirinya sendiri dan kegiatan sehari-hari seperti jadwal kuliah dan......
-                <a href="my_blog_2.html"> >>>Baca Lebih lanjut>>> </a></p>
+                <a href="my_blog_2.php"> >>>Baca Lebih lanjut>>> </a></p>
             </div>
           </div>
         </div>
