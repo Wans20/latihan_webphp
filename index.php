@@ -135,7 +135,7 @@
               </div>
               <p class="card-text">HTTP adalah singkatan dari Hypertext Transfer Protocol. Sebagai bagian dari protokol HTTP, data bergerak melalui jaringan, seperti internet. Faktanya, sebagian besar informasi 
                 yang melintasi internet dilakukan melalui protokol HTTP. Banyak situs web yang menggunakan HTTP memiliki HTTP:// di awal Unique Resource Locators atau URL mereka.
-                <a href="LinkWebPHP.html"> >>>Baca Lebih lanjut>>> </a></p>
+                <a href="LinkWebPHP.php"> >>>Baca Lebih lanjut>>> </a></p>
             </div>
           </div> 
         </div>
