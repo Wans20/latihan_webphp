@@ -105,10 +105,6 @@
         //Contoh Fungsi trim
         $nama = "__andi__";
         $trim_nama = trim($nama);
-        echo $trim_nama; // "__andi__"
-        echo "<br>";
-          
-        $trim_nama = trim($nama,"_");
         echo $trim_nama; // "andi"
         
     ?>
