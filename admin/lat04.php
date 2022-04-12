@@ -73,7 +73,7 @@
         <!-- LATIHAN -->
         <!-- //Contoh Fungsi Explode Dan Implode -->
     <?php
-        //Contong Fungsi Explode
+        //Contoh Fungsi Explode
         $sentence = "Saya Pelajar LP3I Surabaya";
         $sentence = explode(" ",$sentence);
         echo $sentence[2];
