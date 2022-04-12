@@ -103,10 +103,43 @@
         echo "<hr>";
 
         //Contoh Fungsi trim
-        $nama = "__andi__";
+        $nama = " andi     ";
         $trim_nama = trim($nama);
         echo $trim_nama; // "andi"
-        
+        echo "<hr>";
+        //Contoh Fungsi strchr()
+        echo strchr("Hello world!","world");//Output : world!
+        echo "<hr>";
+        //Contoh Fungsi substr()
+        echo substr("coklat", 5); 
+        echo "<hr>";
+        //Contoh Fungsi str_replace()
+        echo str_replace("world","Tony","Hello world!");
+        echo "<hr>";
+        //Contoh Fungsi strtolower()
+        echo strtolower("Hello WORLD.");
+        echo "<hr>";
+        //Contoh Fungsi strtoupper()
+        echo strtoupper("Hello WORLD!");
+        echo "<hr>";
+        //Contoh Fungsi explode()
+        $sentence = "Semangat Para Pejuang masa depan";
+        $sentence = explode(" ",$sentence);
+        echo $sentence[1];
+        echo "<hr>";
+        //Contoh fungsi pembulatan bilangan float
+        //ceil()
+        echo ceil(0.7); // Hasilnya = 1
+        echo "<hr>";
+        //floor()
+        echo floor(3.9); // Hasilnya = 3     
+        echo "<hr>";
+        //round()
+        echo round(3.6); // Hasilnya = 4        
+        echo "<hr>";
+        //fungsi intval()
+        $angka="1";
+        echo intval("angka");
     ?>
 </body>
 </html>
