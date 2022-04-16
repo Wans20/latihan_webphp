@@ -1,3 +1,8 @@
+<?php
+require_once("../config/koneksi_db.php");
+require_once("../config/config.php");
+//require_once(".//")
+ ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
