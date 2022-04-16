@@ -12,45 +12,36 @@
   <body>
   <!-- navbar -->
   <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">HOME</a>
           </li>
-    </nav>
-    </header>
-    <!-- MENUKIRI -->
-
-    <div class="container-fluid row">
-      <div class="col-6">
-        <table>
-        <ul class="list-group">
-          <?php
-          $toko_ase=array(
-            array("ID"=>"01","Nm_Menu"=>"Dashboard","Link"=>"#"),
-            array("ID"=>"02","Nm_Menu"=>"Blog","Link"=>"#"),
-            array("ID"=>"03","Nm_Menu"=>"Berita","Link"=>"Mod_berita")
-          );
-          foreach($toko_ase as $tka){
-          ?>  
-            <a href="<?php echo $tka['Link'] ?>">
-            <li class="list-group-item"><?php echo $tka['Nm_Menu'] ?></li>
-          </a>
-          <?php
-          }
-          ?>
         </ul>
-        </table> 
       </div>
-      
-    <!-- MENUKANAN -->
-      <div class="col-6">
-        <div class="row">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit suscipit voluptate praesentium 
-            itaque laborum beatae fuga quaerat modi, ex in unde ipsam cum. Sed non optio quos corrupti vel ratione.
+    </nav>
+  </header>
+    
+  <!-- MENUKIRI -->
+    <div class="container-fluid row">
+      <div class="row">
+        <div class="col-md-3">
+        <table>
+          <ul class="list-group">
+            <?php 
+            include_once("menu.php");
+            ?>
+          </ul>
+          </table> 
         </div>
-      </div>
+        <div class="col-md-9">
+          <?php 
+            if(isset($_GET['modul'])){
+                include "".$_GET['modul']."/index.php";
+            }
+          ?>
+       </div>
     </div>
   </body>
 </html>

@@ -1,3 +1,8 @@
+<?php
+require_once("../config/koneksi_db.php");
+require_once("../config/config.php");
+//require_once(".//")
+ ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,7 +29,7 @@
           <label for="password" class="form-label">Password</label>
           <input type="password" name="password" class="form-control" id="password" />
         </div>
-        <button type="submid" class="btn btn-primary" >Login</button>
+        <button type="submid" name="btnlogin" class="btn btn-primary" >Login</button>
         <a href="../index.php"> <button type="button" class="btn btn-primary">Home</button></a>
     </form>
     </div>

@@ -32,7 +32,7 @@
         //<!-- latihan Format Date -->
         echo date("l/d/F/Y");
         echo "<hr>";
-        echo "Hari Ini".date(" d/m/y")." Atau ".date( "Y/m/d");
+        echo "Hari Ini"."".date(" l/d/F/Y")." Atau ".date( "Y/m/d");
         echo "<hr>";
         date_default_timezone_set('Asia/Jakarta');//untuk menampilkan waktu sesuai zona
         //DateTimeZone::listIdentifiers();//untuk menampilkan list zona waktu
