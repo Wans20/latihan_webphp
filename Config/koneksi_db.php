@@ -8,9 +8,9 @@
     if(!$connect_db){
         echo "<h3> koneksi gagal!!! </h3>";
         exit;
-    }else{
-        echo "<h3> koneksi berhasil !!! </h3>";
-    }
+    }// else{
+    //     echo "<h3> koneksi berhasil !!! </h3>";
+    // }
     //set database
     mysqli_select_db($connect_db,$database);
 ?>
